@@ -1,0 +1,6 @@
+@bincom_combine_HostAddress = http://localhost:5222
+
+GET {{bincom_combine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

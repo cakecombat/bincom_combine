@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bincom_combine", "bincom_combine\bincom_combine.csproj", "{AA862FC6-7F82-4CB2-9DD7-261F4E03EEF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA862FC6-7F82-4CB2-9DD7-261F4E03EEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA862FC6-7F82-4CB2-9DD7-261F4E03EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA862FC6-7F82-4CB2-9DD7-261F4E03EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA862FC6-7F82-4CB2-9DD7-261F4E03EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0EFDBAD-4678-4E1C-8499-9F3D97B374FB}
+	EndGlobalSection
+EndGlobal
