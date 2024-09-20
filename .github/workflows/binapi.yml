@@ -46,8 +46,3 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.binapi_2991 }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-    - name: Set environment variables for secrets
-      run: |
-          echo "Setting up environment variables"
-      env:
-          ConnectionStrings__DefaultConnection: ${{ secrets.DefaultConnectionString }} 
