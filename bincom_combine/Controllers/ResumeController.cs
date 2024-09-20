@@ -13,7 +13,10 @@ namespace bincom_conbine.Controllers
         {
             _resume = new ResumeModels();
         }
-
+        /// <summary>
+        /// Retrieves resume data
+        /// </summary>
+        /// <returns>The resume Details</returns>
         [HttpGet]
         public IActionResult GetResume()
         {
