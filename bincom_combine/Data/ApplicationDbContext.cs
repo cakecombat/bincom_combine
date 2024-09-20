@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using bincom_conbine.Models;
+using bincom_combine.Models;
 
 namespace bincom_conbine.Data
 {
@@ -10,6 +11,10 @@ namespace bincom_conbine.Data
         {
         }
 
+       
         public DbSet<Picture> Pictures { get; set; }
+
+       
+        public DbSet<ContactUs> ContactUsEntries { get; set; }
     }
 }
