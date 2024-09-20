@@ -81,26 +81,5 @@ namespace bincom_conbine.Controllers
             // Return the created picture with a 201 Created status
             return CreatedAtAction(nameof(GetPicture), new { id = picture.Id }, picture);
         }
-
-        /// <summary>
-        /// Deletes a specific picture by its ID.
-        /// </summary>
-        /// <param name="id">The ID of the picture to delete.</param>
-        /// <returns>No content on successful deletion, or 404 if not found.</returns>
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletePicture(int id)
-        {
-            // Find the picture by its ID
-            var picture = await _context.Pictures.FindAsync(id);
-            if (picture == null)
-            {
-                return NotFound();
-            }
-
-            _context.Pictures.Remove(picture);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
     }
 }
