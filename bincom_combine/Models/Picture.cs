@@ -5,6 +5,6 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public byte[] Image { get; set; } // Use byte array to store image data
+        public byte[] Image { get; set; }
     }
 }
